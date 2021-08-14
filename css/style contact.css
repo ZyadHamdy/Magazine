@@ -1,0 +1,124 @@
+    body {
+        background-image: url(../img/cotact/background\ 2.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    /* ======================================navbar=============================== */
+    
+    .navbar {
+        background-color: #212529;
+        color: white;
+        width: 100%;
+        top: -26%;
+        position: absolute;
+    }
+    
+    .navbar-active {
+        background-color: rgba(102, 102, 102, 0.411);
+        color: rgb(255, 255, 255) !important;
+        position: fixed;
+        transition: all 2s;
+        transition-duration: 2s;
+    }
+    
+    .navbar h4 span {
+        background-color: #ffa31a;
+        padding: 5px;
+    }
+    
+    .navbar h4 {
+        margin-top: 10px;
+        margin-left: 58px;
+        font-size: 17px;
+    }
+    
+    .nav-link {
+        color: white !important;
+    }
+    
+    .mr-auto,
+    .mx-auto {
+        margin-left: 49%;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        margin: 7px;
+        margin-right: 12px;
+        width: 91%;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 28px;
+    }
+    /* ============@media icon========== */
+    
+    .navbar-light .navbar-toggler {
+        color: #f8f9fa;
+        background-color: #ffa31a;
+        font-size: 16px;
+        width: 39px;
+        padding-left: 7px;
+        /* text-align: center; */
+        border-color: rgb(0 0 0);
+    }
+    /* ============@media icon========== */
+    /* ===================x===================navbar=================x============== */
+    
+    .container {
+        justify-content: space-around;
+        height: 180px;
+        width: 65%;
+        margin: auto;
+        margin-top: 25vh;
+        display: flex;
+    }
+    /* .container .Credit a {
+    width: 20px;
+    height: 20px;
+} */
+    
+    .table {
+        text-align: center;
+        margin: auto;
+        font-size: 20px;
+        width: 40%;
+    }
+    
+    .table tbody {
+        width: 50%;
+        color: white;
+    }
+    
+    .table tr td {
+        padding-bottom: 20px;
+    }
+    
+    @media(max-width:992px) and (min-width:769px) {
+        .table {
+            text-align: center;
+            margin: auto;
+            font-size: 16px;
+            width: 47%;
+        }
+        img {
+            width: 97%;
+            height: 71px;
+        }
+    }
+    
+    @media(max-width:768px) and (min-width:500px) {
+        img {
+            width: 72%;
+            height: 65px;
+            margin-top: 82%;
+            border-radius: 100%;
+        }
+        .table {
+            font-size: 14px;
+            width: 71%;
+        }
+        button,
+        input {
+            width: 77%;
+        }
+    }

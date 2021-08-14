@@ -1,0 +1,749 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* ======================================navbar=============================== */
+
+.navbar {
+    background-color: rgb(52 144 197 / 59%);
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+.navbar-active {
+    background-color: rgba(102, 102, 102, 0.411);
+    color: rgb(255, 255, 255) !important;
+    position: fixed;
+    transition: all 2s;
+    transition-duration: 2s;
+}
+
+.navbar h4 span {
+    background-color: #ffa31a;
+    padding: 5px;
+}
+
+.navbar h4 {
+    margin-top: 10px;
+    margin-left: 58px;
+    font-size: 17px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-left: 49%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    margin: 7px;
+    margin-right: 12px;
+    width: 91%;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 28px;
+}
+
+
+/* ============@media icon========== */
+
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    background-color: #ffa31a;
+    font-size: 16px;
+    width: 39px;
+    padding-left: 7px;
+    /* text-align: center; */
+    border-color: rgb(0 0 0);
+}
+
+
+/* ============@media icon========== */
+
+
+/* ===================x===================navbar=================x============== */
+
+
+/* --------------- Site title ---------------- */
+
+main .site-title {
+    background: url(../img/home-bg.png);
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    padding-top: 10rem;
+    text-align: center;
+    /* color: var(--white); */
+    color: white;
+    font-family: 'Lexend', sans-serif;
+}
+
+main .site-title h1,
+h3 {
+    margin: .3rem;
+    margin-top: 10px;
+}
+
+main .site-title h3 {
+    font-family: -webkit-pictograph;
+    border-radius: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    max-width: 400px;
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 17%;
+    background-color: #b8d8f775;
+    color: #ffffff;
+}
+
+main .site-title .btn {
+    margin: 1.8rem;
+    color: white;
+    background-image: linear-gradient( 120deg, #a1c4fd 0%, #c2e9fb 100%);
+    width: 157px;
+    height: 45px;
+    border: 0px;
+    border-radius: 23px;
+    transition-duration: 2s !important;
+    /* background: var(--sky); */
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    /* border: 1px solid var(--white); */
+    /* color: var(--white); */
+    border: 1px solid white;
+    transform: scale(.9) !important;
+    color: white;
+    transition-duration: 2s !important;
+}
+
+
+/* --------x------ Site title --------x------- */
+
+
+/* ===================discrip-section====================== */
+
+.discrip-section {
+    width: 57%;
+    text-align: center;
+    margin: auto;
+}
+
+.discrip-section h1 {
+    font-weight: 700;
+    color: #666;
+    text-transform: uppercase;
+    margin-top: 44px;
+    margin-bottom: 12px;
+}
+
+.discrip-section hr {
+    width: 22%;
+    margin: auto;
+    background: #666;
+}
+
+.discrip-section p {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #666;
+}
+
+
+/* ========x===========discrip-section==============x======== */
+
+
+/* =========================================OWL================================= */
+
+.title-descriotion {
+    background: rgb(248, 249, 250);
+    height: 200px;
+    margin-top: 1px;
+    padding-top: 8px;
+}
+
+.section-one {
+    background: rgb(248, 249, 250);
+    height: 104vh;
+}
+
+.blogs .blog-content {
+    width: 78%;
+    margin-top: 30px;
+    margin-bottom: 23px;
+    margin-left: 50px;
+    height: 400px;
+    box-shadow: 1px 8px 18px 0px rgb(56 53 53 / 75%);
+    -webkit-box-shadow: 0px 5px 16px 0px rgb(32 53 53 / 40%);
+    -moz-box-shadow: 1px 8px 18px 0px rgba(56, 53, 53, 0.75);
+}
+
+.owl-carousel .owl-item img {
+    height: 10pc;
+    transition-duration: 2s;
+}
+
+.blog .owl-item img:hover {
+    transform: scale(1.2)
+}
+
+.blog-content .image {
+    overflow: hidden;
+}
+
+.blogs h3 {
+    width: 83%;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blogs .blog-content button {
+    border-radius: 25px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 108%);
+    color: white;
+    border: 0;
+    display: block;
+    /* margin: 14px 76px; */
+    padding: 13px;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.blogs .blog-content span {
+    display: block;
+    margin: 0 84px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.owl-next {
+    background-color: #ffa31a !important;
+    color: white !important;
+    padding: 14px;
+    width: 5% !important;
+    margin-right: 11px !important;
+    transition-duration: 2s;
+}
+
+.owl-next:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid rgb(170, 169, 169) !important
+}
+
+.owl-prev:hover {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid rgb(170, 169, 169) !important
+}
+
+.owl-prev {
+    background-color: #ffa31a !important;
+    color: white !important;
+    padding: 14px;
+    width: 5% !important;
+    margin-right: 11px !important;
+    transition-duration: 2s;
+}
+
+
+/* =========================================OWL================================= */
+
+
+/* <!-- ==========================================About Us================================= --> */
+
+.our-team {
+    background: rgb(248, 249, 250);
+    margin-top: 66px;
+    padding-top: 1px;
+}
+
+
+/* .container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+} */
+
+@media (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 90% !important;
+    }
+}
+
+.container .content-about-us {
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 12%;
+}
+
+.container .content-about-us .description h3 {
+    /* direction: rtl; */
+    color: #212529;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.container .content-about-us .description p {
+    /* direction: rtl; */
+    text-align: right;
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 98%;
+    padding-left: 29px;
+}
+
+.container .content-about-us .image {
+    border-radius: 69px;
+    padding-left: 33px;
+}
+
+.container .content-about-us .image img {
+    border: 8px solid rgb(233, 236, 239);
+    border-radius: 150px;
+    width: 160px;
+}
+
+.container .long-lines {
+    width: 2px;
+    height: 152px;
+    margin: auto;
+    background: rgb(233, 236, 239);
+}
+
+.container .content-about-us-right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 45%;
+    margin-top: -17px;
+}
+
+.container .content-about-us-right .image img {
+    border: 8px solid rgb(233, 236, 239);
+    border-radius: 150px;
+    width: 160px;
+}
+
+.container .content-about-us-right .description h3 {
+    color: #212529;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.container .content-about-us-right .description p {
+    text-align: left;
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 99%;
+    padding-left: 11px;
+}
+
+.container .join-us {
+    width: 80%;
+    margin-left: 152px;
+}
+
+.container .join-us .content {
+    margin: auto;
+    background: rgb(255, 200, 0);
+    border: 8px solid rgb(233, 236, 239);
+    border-radius: 150px;
+    width: 20%;
+    margin-right: 42%;
+    height: 169px;
+}
+
+.container .join-us .content p {
+    text-align: center;
+    margin-top: 31px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+@media (max-width:990px) {
+    .container .content-about-us {
+        width: 83% !important;
+        position: relative;
+        display: block;
+    }
+    .container .content-about-us .description {
+        position: absolute;
+        top: 0%;
+        left: 11%;
+    }
+    .container .content-about-us .description h3 {
+        direction: ltr;
+        color: #212529;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 700;
+        margin-left: 25px;
+    }
+    .container .content-about-us .description p {
+        direction: ltr;
+        text-align: left;
+        color: #6c757d;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 21px;
+        width: 98%;
+        padding-left: 27px;
+    }
+    .container .content-about-us .image {
+        border-radius: 69px;
+        padding-left: 0px;
+    }
+    .container .content-about-us .image img {
+        border: 8px solid rgb(233, 236, 239);
+        border-radius: 150px;
+        width: 14%;
+    }
+    .container .long-lines {
+        display: none;
+    }
+    .container .content-about-us-right {
+        margin-top: 104px !important;
+        position: relative;
+        height: 181px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .container .content-about-us-right .image img {
+        width: 31%;
+        margin-left: 24%;
+    }
+    .container .content-about-us-right .description {
+        position: absolute;
+        left: 24%;
+    }
+    .container .content-about-us-right .description h3 {
+        text-align: left;
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .container .content-about-us-right .description p {
+        text-align: left;
+        font-size: 12px;
+        line-height: 22px;
+        width: 99%;
+        padding-left: 11px;
+    }
+    .container .join-us {
+        width: 100%;
+        margin-left: 0;
+    }
+    .container .join-us .content {
+        width: 13%;
+        height: 72px;
+        margin-left: 10%;
+    }
+    .container .join-us .content p {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+}
+
+
+/* <!-- ===================x=======================About Us==================x=============== --> */
+
+
+/* <!-- ==========================================Our Team================================= --> */
+
+.container .parent-our-team {
+    display: flex;
+}
+
+.container .content-our-team {
+    width: 97%;
+    height: 405px;
+    text-align: center;
+}
+
+.container .content-our-team img {
+    margin-left: 75px;
+    border-radius: 100%;
+    width: 56%;
+    height: 200px;
+    border: 10px solid rgb(223, 224, 225);
+    cursor: pointer;
+}
+
+.container .content-our-team h3 {
+    width: 63%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.container .content-our-team span {
+    color: #6c757d;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'FontAwesome';
+}
+
+.container .content-our-team .icons-team i {
+    background-color: rgb(33, 37, 41);
+    padding: 10px;
+    color: white;
+    width: 10%;
+    border-radius: 100%;
+    margin: 9px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* .container .parent-our-team button {
+    display: none;
+} */
+
+
+/* <!-- =====================x=====================Our Team==============x=================== --> */
+
+
+/* <!--===================================== Slideshow container =================================--> */
+
+#carouselExampleIndicators {
+    background: rgb(40, 171, 227);
+    height: 72vh;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+    transition: all 4s !important;
+}
+
+#carouselExampleIndicators .carousel-inner p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    transition: all 4s !important;
+}
+
+#carouselExampleIndicators .carousel-inner i {
+    margin-top: 8%;
+    margin-left: 48%;
+    color: white;
+    font-size: 50px;
+}
+
+#carouselExampleIndicators .carousel-inner .client-details {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#carouselExampleIndicators .carousel-inner .client-details .img-client img {
+    border-radius: 100%;
+    width: 28%;
+    margin-top: 8%;
+    height: 175px;
+    /* border: 10px solid rgb(223, 224, 225); */
+    cursor: pointer;
+}
+
+#carouselExampleIndicators .carousel-inner .client-details h3 {
+    font-weight: 700;
+}
+
+
+/* <!--===============x====================== Slideshow container ===============x==================--> */
+
+
+/* <!-- =======================================GALLARY=================================== --> */
+
+.gallary {
+    margin-top: 321px;
+    padding-top: 53px;
+    background: rgb(233, 236, 239);
+}
+
+.container-gallary {
+    display: flex;
+    margin-top: 100px;
+}
+
+.gallary .container-gallary .img-gallary {
+    margin: 0px;
+    position: relative;
+    background-color: rgb(0, 0, 0)
+}
+
+.gallary .container-gallary .img-gallary img {
+    width: 100%;
+    height: 175px;
+}
+
+.gallary .img-gallary .icon-img i {
+    opacity: 0;
+    position: absolute;
+    font-size: 35px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    top: 44%;
+    right: 45%;
+}
+
+.gallary .container-gallary .img-gallary:hover img {
+    opacity: .5;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.gallary .container-gallary .img-gallary:hover i {
+    opacity: 1;
+}
+
+
+/* <!-- ==================x=====================GALLARY===================x================ --> */
+
+
+/* <!-- =======================================footer======================================= --> */
+
+.footer-parent {
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+    color: #625c5cbd;
+    height: 86vh;
+}
+
+.footer-parent h3 {
+    color: #ffa31a;
+}
+
+.footer-parent .footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+/* 
+.footer-parent .footer-container .content-footer {
+    max-width: 20%;
+    flex: 20%;
+} */
+
+.footer-parent .footer-container .content-footer .icon-cotent {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    text-align: center;
+}
+
+.footer-parent .footer-container .content-footer .icon i {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 7px;
+    /* margin-right: 10px;
+    margin-top: 15px; */
+}
+
+.footer-parent .footer-container .content-footer .icon-cotent p {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.footer-container .content-footer ul li {
+    /* width: 73%; */
+    height: 30px;
+    margin-left: 26px;
+}
+
+.footer-parent .footer-container .content-footer .icons-social {
+    color: white;
+}
+
+.footer-parent .footer-container .content-footer .icons-social i {
+    margin: 5px;
+    color: #ffa31a;
+}
+
+.footer-parent .end {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.footer-parent .end span {
+    font-size: larger;
+    font-weight: 400;
+    color: #ffa31a;
+}
+
+@media (max-width:992px) and (min-width:766px) {
+    .footer-parent {
+        height: 110vh;
+    }
+}
+
+@media (max-width:767px) {
+    .footer-parent {
+        height: 145vh;
+    }
+}
+
+
+/* <!-- ==================x=====================footer===================x==================== --> */
+
+a:hover {
+    text-decoration: none;
+}

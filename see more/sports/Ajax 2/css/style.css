@@ -1,0 +1,171 @@
+/* ======================================navbar=============================== */
+
+.navbar {
+    /* background-color: black; */
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+    /* background-image: linear-gradient( 13deg, #005b903d 0%, #ebedee 100%); */
+    background-image: linear-gradient( 2deg, #1f4da2d6 0%, #ebedee 100%);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+.navbar-active {
+    background-color: rgba(102, 102, 102, 0.411);
+    color: rgb(255, 255, 255) !important;
+    position: fixed;
+    transition: all 2s;
+    transition-duration: 2s;
+}
+
+.navbar h4 span {
+    background-color: #ffa31a;
+    padding: 5px;
+}
+
+.navbar h4 {
+    margin-top: 10px;
+    margin-left: 58px;
+    font-size: 17px;
+}
+
+.nav-link {
+    /* color: white !important; */
+    color: rgb(0, 0, 0) !important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-left: 49%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    margin: 7px;
+    margin-right: 12px;
+    width: 91%;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 28px;
+}
+
+
+/* ============@media icon========== */
+
+.navbar-light .navbar-toggler {
+    color: #f8f9fa;
+    background-color: #ffa31a;
+    font-size: 16px;
+    width: 39px;
+    padding-left: 7px;
+    /* text-align: center; */
+    border-color: rgb(0 0 0);
+}
+
+
+/* ============@media icon========== */
+
+
+/* ===================x===================navbar=================x============== */
+
+#t-cards {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #345;
+}
+
+
+/********************************/
+
+
+/*          Panel cards         */
+
+
+/********************************/
+
+.panel.panel-card {
+    position: relative;
+    height: 241px;
+    border: none;
+    overflow: hidden;
+}
+
+.panel.panel-card .panel-heading {
+    position: relative;
+    z-index: 2;
+    height: 120px;
+    border-bottom-color: #fff;
+    overflow: hidden;
+    -webkit-transition: height 600ms ease-in-out;
+    transition: height 600ms ease-in-out;
+}
+
+.panel.panel-card .panel-heading img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 120%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.panel.panel-card .panel-heading button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    z-index: 3;
+}
+
+.panel.panel-card .panel-figure {
+    position: absolute;
+    top: auto;
+    left: 50%;
+    z-index: 3;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    -webkit-box-shadow: 0 0 0 3px #fff;
+    box-shadow: 0 0 0 3px #fff;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+    -webkit-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+}
+
+.panel.panel-card .panel-body {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    -webkit-transition: padding 400ms ease-in-out;
+    transition: padding 400ms ease-in-out;
+}
+
+.panel.panel-card .panel-thumbnails {
+    padding: 0 15px 20px;
+}
+
+.panel-thumbnails .thumbnail {
+    width: 60px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.panel.panel-card:hover .panel-heading {
+    height: 55px;
+    -webkit-transition: height 400ms ease-in-out;
+    transition: height 400ms ease-in-out;
+}
+
+.panel.panel-card:hover .panel-figure {
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+}
+
+.panel.panel-card:hover .panel-body {
+    padding-top: 20px;
+    -webkit-transition: padding 400ms ease-in-out;
+    transition: padding 400ms ease-in-out;
+}

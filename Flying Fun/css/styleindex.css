@@ -1,0 +1,912 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* start logo */
+
+.container-logo {
+    background-color: rgb(38, 38, 38);
+}
+
+.logo {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo .img {
+    width: 234px;
+    height: 64px;
+    background-image: url(../HOME/imgs/logo\ 2.jpg);
+    background-size: cover;
+}
+
+.logo button {
+    background-color: #7AA93C;
+    color: white;
+    box-shadow: 0 2px 0 #6f9a37;
+    border: 0;
+    width: 128px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 16px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* start nav */
+
+.navbar {
+    /* opacity: 80%; */
+    position: relative;
+}
+
+.navbar .navbar-brand {
+    width: 32px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-family: initial;
+    color: white;
+}
+
+.navbar .container-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-nav .nav-logo {
+    width: 157px;
+    height: 86px;
+    background-image: url(../HOME/imgs/logo\ 1.jpg);
+    background-size: cover;
+    margin-top: 13px;
+}
+
+
+/* start section */
+
+.section1 {
+    height: 145vh;
+    background-image: url(../HOME/imgs/background\ section.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+/* start links */
+
+.container-nav .links {
+    display: flex;
+    width: 58%;
+    height: 70px;
+    padding: 12px 0px;
+    margin-top: 25px;
+}
+
+.container-nav .links .home {
+    width: 15%;
+    /* text-align: center; */
+    padding: 8px 4px;
+    margin: 0px 19px;
+    font-size: larger;
+}
+
+.container-nav .links .home a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-nav .links .home a:hover {
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.container-nav .links span {
+    visibility: hidden;
+    padding-left: 8px;
+    border-bottom: 1px dotted white;
+}
+
+.container-nav .links .home:hover span {
+    visibility: visible;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+    box-sizing: border-box;
+    width: 230px;
+    text-decoration: ltr;
+}
+
+hr {
+    width: 100%;
+    color: white;
+    height: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* start text */
+
+.text {
+    position: absolute;
+    text-align: center;
+    width: 60%;
+    left: 18%;
+    top: 235px;
+    color: white;
+    text-shadow: 1px 1px 1rem rgba(0, 0, 0, .42);
+    /* font-family: 'Muli';
+    font-weight: normal;
+    font-size: 1rem; */
+}
+
+.text .heading h1 {
+    color: rgb(255, 255, 255);
+    text-transform: none;
+    font-family: 'Prata';
+    font-weight: normal;
+    font-size: 4.65rem;
+}
+
+.text .para p {
+    font-size: 1.6em;
+    font-family: 'Muli';
+    line-height: 46px
+}
+
+.text button {
+    background-color: rgba(168, 152, 126, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(168, 152, 126, 1);
+    padding: 13px;
+    width: 26%;
+    font-size: larger;
+    font-weight: 502;
+    /* background-color: rgb(72, 103, 170); */
+    /* color: white; */
+    border: 0;
+}
+
+
+/* start video */
+
+.Advertising {
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+}
+
+.Advertising h1 {
+    color: rgb(26, 31, 31);
+    font-family: 'Prata';
+}
+
+.Advertising video {
+    width: 852px;
+    height: 479px;
+    margin-top: 5px;
+    border: 2px solid #bdb3b3;
+}
+
+
+/* end video */
+
+
+/* start footer */
+
+.footer {
+    height: 97vh;
+    background-color: rgb(13, 13, 14);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.footer .img-footer {
+    text-align: center;
+}
+
+.footer .img-footer img {
+    width: 217px;
+}
+
+.footer .hr {
+    background-color: rgba(181, 181, 181, 0.705)
+}
+
+.footer .row-one {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 10px;
+}
+
+.footer .row-one .content {
+    width: 33%
+}
+
+.footer .row-one h3 {
+    font-family: inherit;
+    text-transform: uppercase;
+    /* font-family: 'Muli'; */
+    color: rgba(168, 152, 126, 1);
+    font-size: 20px;
+}
+
+.footer .row-one p {
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 25px 0px;
+    margin: 7px 0px;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+.footer .row-tow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .row-tow h3 {
+    font-family: inherit;
+    text-transform: uppercase;
+    /* font-family: 'Muli'; */
+    color: rgba(168, 152, 126, 1);
+    font-size: 20px;
+}
+
+.footer .row-tow p {
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 25px 0px;
+    margin: 7px 0px;
+    font-weight: normal;
+    font-size: 11px;
+}
+
+
+/* start icon footer */
+
+.container-icon {
+    direction: rtl;
+}
+
+.container-icon .icons-footer {
+    width: 20%;
+    display: flex;
+    font-size: 35px;
+    direction: rtl;
+    margin-right: 30px;
+    padding: 9px 25px;
+    /* letter-spacing: 35px; */
+    justify-content: space-around;
+}
+
+.icons-footer .face .fa-facebook:hover {
+    background-color: rgb(72, 103, 170);
+    color: white;
+    /* border-radius: 5px;
+    width: 50px */
+}
+
+.icons-footer .twit .fa-twitter:hover {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    border-radius: 5px;
+}
+
+.icons-footer .google .fa-google-plus:hover {
+    background-color: rgb(180, 4, 4);
+    /* background-color: rgb(175, 53, 44); */
+    color: white;
+    border-radius: 5px;
+}
+
+.icons-footer .insta .fa-instagram:hover {
+    background-color: rgb(143, 72, 186);
+    color: white;
+    border-radius: 5px;
+}
+
+.icons-footer .pinter .fa-pinterest-p:hover {
+    background-color: rgb(197, 31, 39);
+    color: white;
+    border-radius: 5px;
+}
+
+@media(max-width:1100px) and (min-width:601px) {
+    .navbar {
+        /* opacity: 80%; */
+        height: 70px;
+    }
+    .container-nav .links .home {
+        width: 17%;
+        padding: 0px 0px;
+        margin: 0px 8px;
+        font-size: 10px;
+    }
+    .container-nav .nav-logo {
+        width: 90px;
+        height: 49px;
+        border-radius: 25px;
+    }
+    .container-nav .links {
+        display: flex;
+        width: 71%;
+        height: 70px;
+        padding: 6px 0px;
+        margin-top: 24px;
+    }
+    .container-nav .nav-logo {
+        width: 106px;
+        height: 59px;
+    }
+    .section1 {
+        height: 102vh;
+    }
+    .text .heading h1 {
+        font-size: 3rem;
+    }
+    .text .para p {
+        font-size: 1em;
+        font-family: 'Muli';
+        line-height: 30px;
+    }
+    .text button {
+        width: 39%;
+        font-size: small;
+    }
+}
+
+@media(max-width:600px) {
+    .navbar {
+        /* opacity: 80%; */
+        height: 70px;
+    }
+    .container-nav .links .home {
+        width: 17%;
+        padding: 0px 0px;
+        margin: 0px 8px;
+        font-size: 10px;
+    }
+    .container-nav .nav-logo {
+        width: 90px;
+        height: 49px;
+        border-radius: 25px;
+    }
+    .container-nav .links {
+        display: flex;
+        width: 75%;
+        height: 38px;
+        padding: 6px 0px;
+        margin-top: 24px;
+    }
+    .container-nav .nav-logo {
+        width: 106px;
+        height: 59px;
+    }
+    .section1 {
+        height: 102vh;
+    }
+    .text .heading h1 {
+        font-size: 3rem;
+    }
+    .text .para p {
+        font-size: 1em;
+        font-family: 'Muli';
+        line-height: 30px;
+    }
+    .text button {
+        width: 39%;
+        font-size: small;
+    }
+    .footer .row-one .content {
+        width: 33%;
+        height: 165px;
+    }
+    .footer .row-one h3 {
+        font-size: 12px;
+    }
+    footer .row-one p {
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 25px 0px;
+        margin: -17px 0px;
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .footer .row-tow h3 {
+        font-size: 12px;
+    }
+    footer .row-tow p {
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.8);
+        padding: 25px 0px;
+        margin: -17px 0px;
+        font-weight: normal;
+        font-size: 10px;
+    }
+}
+
+
+/* start design abdo fathy */
+
+
+/* fly 1 */
+
+.abdo-title {
+    color: rgba(13, 13, 14, 1);
+    font-family: 'Prata';
+    font-weight: normal;
+    text-transform: none;
+    font-size: 3rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 60px;
+}
+
+.abdo-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abdo-containers {
+    width: 24%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.abdo-back1 {
+    background-image: url(../photo/feather-plane-1-300x300.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.abdo-back2 {
+    background-image: url(../photo/light-jet-300x300.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.abdo-back3 {
+    background-image: url(../photo/helicopter-1-300x300.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.abdo-back4 {
+    background-image: url(../photo/large-plane-1-300x300.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.abdo-header {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.abdo-h1 {
+    color: rgba(9, 9, 11, 1);
+    font-family: 'Muli';
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    letter-spacing: 0.02em;
+}
+
+.abdo-paragraph {
+    letter-spacing: 1px;
+    color: rgba(168, 152, 126, 1);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+}
+
+.fly-parent-ground {
+    margin-top: 50px;
+    width: 100%;
+    height: 240px;
+    padding-left: 22%;
+}
+
+.fly-ground {
+    width: 100%;
+    height: 100%;
+    background-image: url("../photo/plane-side-768x240.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+}
+
+@media(max-width:1100px) and (min-width:601px) {
+    .abdo-containers {
+        max-width: 42%;
+        flex: 42%;
+        margin-bottom: 20px;
+    }
+    .abdo-back1 {
+        background-image: url(../photo/feather-plane-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back2 {
+        background-image: url(../photo/light-jet-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back3 {
+        background-image: url(../photo/helicopter-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back4 {
+        background-image: url(../photo/large-plane-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+}
+
+@media(max-width:600px) {
+    .abdo-containers {
+        max-width: 98%;
+        flex: 98%;
+        margin-bottom: 20px;
+    }
+    .abdo-back1 {
+        background-image: url(../photo/feather-plane-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back2 {
+        background-image: url(../photo/light-jet-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back3 {
+        background-image: url(../photo/helicopter-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+    .abdo-back4 {
+        background-image: url(../photo/large-plane-1-300x300.jpg);
+        background-size: 82% 300px;
+        background-repeat: no-repeat;
+        margin-left: 9%;
+    }
+}
+
+
+/* end fly */
+
+
+/* start fly 2 */
+
+.abdo1-contact {
+    background-color: #f5f3f1;
+}
+
+.title {
+    color: rgba(13, 13, 14, 1);
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 70px;
+    font-family: 'Prata';
+    font-weight: normal;
+    text-transform: none;
+    font-size: 3.5rem;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.abdo1-container1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abdo1-header {
+    width: 28%;
+    height: 350px;
+    margin-right: 10%;
+}
+
+.abdo1-h1 {
+    margin-top: 70px;
+    color: rgba(9, 9, 11, 1);
+    font-family: 'Muli';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4375rem;
+    letter-spacing: 0.02em;
+    margin-left: 10%;
+}
+
+.abdo1-paragraph {
+    letter-spacing: 1px;
+    color: rgba(81, 80, 80, 1);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+.abdo1-header2 {
+    width: 55%;
+    height: 511px;
+    margin-left: 5%;
+    background-image: url("../photo/adobestock_1417261-768x511.jpg");
+    background-size: 100% 511px
+}
+
+.abdo1-container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+.abdo1-header3 {
+    width: 55%;
+    height: 512px;
+    margin-left: 2%;
+    background-image: url(../photo/adobestock_98400582-768x512.jpg);
+    background-size: 98% 511px;
+    transform: translate(-7px, -100px);
+    background-repeat: no-repeat;
+}
+
+.abdo1-header1 {
+    width: 28%;
+    height: 350px;
+    margin-left: 8%;
+    margin-top: 25px;
+}
+
+.abdo1-h2 {
+    margin-top: 160px;
+    color: rgba(9, 9, 11, 1);
+    font-family: 'Muli';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4375rem;
+    letter-spacing: 0.02em;
+    margin-left: 10%;
+}
+
+.abdo1-paragraph1 {
+    letter-spacing: 1px;
+    color: rgba(81, 80, 80, 1);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    line-height: 30px;
+}
+
+@media(max-width:900px) {
+    .abdo1-header,
+    .abdo1-header2,
+    .abdo1-header3,
+    .abdo1-header1 {
+        max-width: 98%;
+        flex: 98%;
+        margin-bottom: 20px;
+        margin-left: 1%;
+    }
+    .abdo1-header3 {
+        transform: translate(0px, 0px);
+    }
+}
+
+
+/* end fly 2 */
+
+
+/* start fly3 */
+
+.abdo3-title {
+    color: rgba(13, 13, 14, 1);
+    width: 56%;
+    text-align: center;
+    margin-left: 27%;
+    margin-bottom: 70px;
+    font-family: 'Prata';
+    font-weight: normal;
+    text-transform: none;
+    font-size: 3.5rem;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.abdo3-contact-us {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abdo3-container {
+    width: 20%;
+    margin-top: 125px;
+    margin-left: 5%;
+}
+
+.abdo3-ground {
+    width: 50%;
+    height: 655px;
+    padding-left: 6%;
+    margin-left: 2%;
+}
+
+.abdo3-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("../photo/plane-1-768x848.jpg");
+    background-size: 90% 650px;
+    background-repeat: no-repeat;
+}
+
+.abdo3-container1 {
+    width: 20%;
+    margin-top: 125px;
+    margin-left: 2%;
+}
+
+.abdo3-p {
+    letter-spacing: 1px;
+    color: rgba(168, 152, 126, 1);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    line-height: 35px;
+}
+
+.abdo3-h5 {
+    margin-left: 10%;
+}
+
+
+/* end fly 3 */
+
+.abdo4-contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.abdo4-slider1 {
+    width: 25%;
+}
+
+.abdo4-slider2 {
+    width: 71%;
+    margin-bottom: 20px;
+}
+
+.abdo4-img {
+    animation: abdo 20s infinite alternate;
+    transition: animation 0.5 ease-in-out;
+    width: 100%;
+    height: 650px;
+    background-image: url("../photo/man-plane-1-small.jpg");
+    background-size: 100% 650px;
+    transform: translate(85px, 224px);
+}
+
+@keyframes abdo {
+    0% {
+        background-image: url("../photo/man-plane-1-small.jpg");
+    }
+    25% {
+        background-image: url("../photo/private-plane-1-small.jpg");
+    }
+    50% {
+        background-image: url("../photo/corporate-jet-1-small.jpg");
+    }
+    75% {
+        background-image: url("../photo/private-plane-1-small.jpg");
+    }
+    100% {
+        background-image: url("../photo/man-plane-1-small.jpg");
+    }
+}
+
+.abdo4-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30%;
+    background-color: #f5f3f1
+}
+
+.abdo4-header1,
+.abdo4-header2 {
+    width: 40%;
+    margin: 4%;
+}
+
+.abdo4-p {
+    letter-spacing: 1px;
+    color: rgba(168, 152, 126, 1);
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    line-height: 35px;
+}
+
+.abdo4-h5 {
+    margin-top: 15px;
+    color: rgba(9, 9, 11, 1);
+    font-family: 'Muli';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.4375rem;
+    letter-spacing: 0.02em;
+    margin-left: 10%;
+}
+
+@media(max-width:900px) {
+    .abdo4-slider1,
+    .abdo4-slider2,
+    .abdo4-header1,
+    .abdo4-header2 {
+        width: 100%;
+        margin-right: 5%;
+    }
+    .abdo4-header1,
+    .abdo4-header2 {
+        padding-right: 40%;
+    }
+    .abdo4-img {
+        animation: abdo 15s infinite alternate;
+        transition: animation 0.5 ease-in-out;
+        width: 90%;
+        height: 400px;
+        background-image: url("../photo/man-plane-1-small.jpg");
+        background-size: 100% 400px;
+        transform: translate(0px, 0px);
+        margin-left: 7%;
+        display: block;
+    }
+    .abdo4-p {
+        letter-spacing: 1px;
+        color: rgba(168, 152, 126, 1);
+        width: 90%;
+        margin-top: 10px;
+        line-height: 35px;
+    }
+    .abdo4-h5 {
+        margin-top: 15px;
+        color: rgba(9, 9, 11, 1);
+        font-family: 'Muli';
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        letter-spacing: 0.02em;
+    }
+}
